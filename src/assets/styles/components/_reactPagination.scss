@@ -1,0 +1,64 @@
+.react-pagination-block__main {
+  margin: 1rem 0;
+  .react-pagination-block--inner {
+    padding: 0.2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .react-pagination-data-count--block {
+      color: #5f7384;
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+    .react-pagination---block {
+      .arrow--btn {
+        padding: 0.4rem 1.7rem;
+        color: #5f7384;
+        background: #223343;
+        border-radius: 5px;
+        cursor: pointer;
+        &:not(:last-child) {
+          margin-right: 0.7rem;
+        }
+        svg {
+          width: 2rem;
+          height: 2rem;
+        }
+        &.disabled {
+          cursor: not-allowed;
+        }
+      }
+      .pagination {
+        margin: 15px auto;
+      }
+      .pagination > .active > a {
+        background-color: #314456;
+        border-color: #2a2c2c;
+        color: #fff;
+      }
+      .pagination > li > a {
+        border: 1px solid #29343e;
+        padding: 10px 14px;
+        cursor: pointer;
+        color: #5f7384;
+        svg {
+          height: 1.5rem;
+          width: 1.5rem;
+        }
+      }
+    }
+    .react-pagination-btn {
+      border: 1px solid #29343e;
+      padding: 0 0.5rem;
+      cursor: pointer;
+      color: #5f7384;
+      margin-left: auto;
+      .has-dropdown {
+        background-color: #1b2a38;
+      }
+      .has-dropdown .popup {
+        min-width: 47px;
+      }
+    }
+  }
+}

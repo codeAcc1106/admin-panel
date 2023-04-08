@@ -1,0 +1,54 @@
+.delete-modal-main_page {
+  .delete-modal--inner {
+    padding: 2rem 2.5rem;
+    background: #ffffff;
+
+    .delete-modal---block_title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: #a29f9f;
+      font-style: normal;
+      margin-bottom: 3rem;
+
+      .inner--block_title {
+        .title {
+          font-weight: 500;
+          font-size: 1.5rem;
+          letter-spacing: 1px;
+          margin-bottom: 0.5rem;
+        }
+
+        .sub-title {
+          font-weight: 400;
+          font-size: 0.95rem;
+          letter-spacing: 1px;
+          color: #a29f9f;
+        }
+      }
+    }
+
+    .delete-modal-input-box__block {
+      .delete-model--btn {
+        // width: 100%;
+        width: 12rem;
+        text-align: left;
+        padding: 0.7rem;
+
+        &:focus {
+          box-shadow: none;
+        }
+      }
+
+      .cancel--btn {
+        // background-color: transparent;
+        border-color: #a29f9f;
+        text-align: center;
+      }
+
+      .remove--btn {
+        text-align: center;
+      }
+    }
+  }
+}
