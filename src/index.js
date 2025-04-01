@@ -7,6 +7,7 @@ import './App.scss';
 import Store from './utils/store';
 import AppRotes from './appRoutes'
 
+// comment
 
 ReactDOM.render(
   <React.StrictMode>
